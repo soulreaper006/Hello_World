@@ -12,13 +12,13 @@ void delay(unsigned int milliseconds)
 
 int main()
 {
-    char array[] = {'h', 'e', 'l', 'l', 'o', 'w', 'o', 'r', 'l', 'd'};
+    char array[] = {'H', 'E', 'L', 'L', 'O', 'W', 'O', 'R', 'L', 'D'};
     string output;
     int j = 0;
     while (j <= 9)
     {
 
-        for (char i = 'a'; i < 'z'; i++)
+        for (char i = 'A'; i < 'Z'; i++)
         {
             cout << output << i << endl;
             delay(50);
